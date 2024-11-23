@@ -13,3 +13,30 @@ Considering a system with five processes P0 through P4 and three resources of ty
 determine if system is in safe state. If so, provide the path.
 
 <br>
+
+### Utility
+The make command will compile the utility functions
+```
+    make utility
+```
+
+#### Banker:
+The make command will compile the banker algorithm
+```
+    make banker
+```
+
+### Run:
+The make command will compile the algorithm and execute the program with the  ````./table/resource.txt``` file as input 
+```
+    make run
+```
+
+
+### Clean:
+The make command will remove the executed and compiled files
+```
+    make clean
+```
+
+<br><br>
